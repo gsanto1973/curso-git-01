@@ -23,6 +23,10 @@ app.get('/superman', (req, res) => {
     res.send('Hola Giorda - Superman');
 })
 
+app.get('/batman', (req, res) => {
+    res.send('Hola Giorda - Batman');
+})
+
 app.listen(4545, () => {
     console.log(`Example app listening on port 4545`)
 })
